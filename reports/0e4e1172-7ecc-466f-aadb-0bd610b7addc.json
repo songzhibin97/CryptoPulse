@@ -1,0 +1,66 @@
+{
+  "report_id": "uuid-1234",
+  "symbol": "BTCUSDT",
+  "analysis_type": "realtime",
+  "timeframe": ["15m"],
+  "timestamp": 1745366812244,
+  "capital_flow": {
+    "buy_sell_ratio": 0.45,
+    "large_trades": [
+      {
+        "price": "93537.69000000",
+        "volume": "0.25308000",
+        "impact": "price consolidation near 93500"
+      }
+    ],
+    "net_flow": -12.34
+  },
+  "technical_analysis": {
+    "ma": {
+      "ma5": 93445.65,
+      "ma20": 92462.36,
+      "ma50": null
+    },
+    "rsi": 82.79,
+    "macd": {
+      "macd": 120.45,
+      "signal": 115.20,
+      "histogram": 5.25
+    },
+    "bollinger": {
+      "upper": 94500.00,
+      "middle": 93445.65,
+      "lower": 92400.00
+    },
+    "support_resistance": [
+      {"price": "93447.73", "type": "support", "strength": 3.0},
+      {"price": "93528.34", "type": "resistance", "strength": 7.94}
+    ],
+    "trend_signals": ["RSI overbought"]
+  },
+  "order_book": {
+    "buy_sell_depth_ratio": 0.88,
+    "support_resistance": [
+      {"price": "93447.73", "type": "support", "depth": 3.0},
+      {"price": "93528.34", "type": "resistance", "depth": 7.94}
+    ],
+    "fake_walls": []
+  },
+  "sentiment": {
+    "volume_distribution": [
+      {"timestamp": 1745358300000, "volume": 4973.619}
+    ],
+    "volatility": {
+      "hv": 15.4,
+      "atr": 650.3
+    },
+    "fear_greed_index": 50.0
+  },
+  "risk_alerts": [
+    {
+      "type": "price_deviation",
+      "description": "Price exceeds 2σ from 5-period MA",
+      "timestamp": 1745366812244
+    }
+  ]
+}

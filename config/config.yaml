@@ -1,0 +1,5 @@
+ai_endpoint: manual
+ext_endpoint: http://ext-data-endpoint
+port: 8080
+proxy_url: http://127.0.0.1:7890
+ws_proxy_url: http://127.0.0.1:7890
